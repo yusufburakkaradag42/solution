@@ -1,0 +1,8 @@
+@import '../../scss/variables';
+
+.navbar{
+    background-color: $cardNavBgColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
