@@ -1,0 +1,31 @@
+@import '../../scss/variables';
+
+.card-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+gap: 2rem;
+
+    .cards{
+        border: 2px solid red;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+img{
+    width: 500px;
+    height: 350 px;
+
+}
+
+.card-over{
+    width: 500px;
+}
