@@ -15,7 +15,9 @@
         &:hover .card-over{
             transform: translateY(0%);
         }
-
+        &:hover img{
+            opacity: 1;
+        }
         .title{
             position: absolute;
             top: 0;
@@ -44,6 +46,7 @@
             height: 350px;
             object-fit: cover;
             border-radius: 10px;
+            opacity: 0.5;
         }
         .card-over{
             width: 500px;
